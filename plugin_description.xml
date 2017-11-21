@@ -1,0 +1,10 @@
+<library path="lib/libmotion_state_rviz_plugin_ros">
+  <class name="motion_state_rviz_plugin_ros/MotionState"
+         type="motion_state_rviz_plugin_ros::MotionStateDisplay"
+         base_class_type="rviz::Display">
+    <description>
+      Displays messages of type automated_driving_msgs/MotionState: The objects' pose is represented by a cube and its linear velocity by a vector.
+    </description>
+    <message_type>automated_driving_msgs/MotionState</message_type>
+  </class>
+</library>
