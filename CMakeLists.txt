@@ -25,6 +25,9 @@ add_definitions(-fPIC)
 # Mark files or folders for display in IDEs
 mrt_add_to_ide(README.md .gitlab-ci.yml)
 
+# Remove a warning caused by the rviz-plugin core
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-expansion-to-defined")
+
 ########################
 ## add python modules ##
 ########################

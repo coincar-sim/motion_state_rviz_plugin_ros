@@ -1,6 +1,6 @@
 <package format="2">
   <name>motion_state_rviz_plugin_ros</name>
-  <version>0.1.0</version>
+  <version>1.0.0</version>
   <description>
      MotionState plugin for RViz.
   </description>
@@ -24,7 +24,8 @@
   <depend>automated_driving_msgs</depend>
   <depend>simulation_only_msgs</depend>
 
-  <depend>simulation_utils</depend>
+  <depend>util_automated_driving_msgs</depend>
+  <depend>util_rviz</depend>
 
   <export>
       <rviz plugin="${prefix}/plugin_description.xml"/>
