@@ -32,8 +32,10 @@
 
 #include <memory>
 #include <automated_driving_msgs/MotionState.h>
+// Ogre still uses the deprecated volatile keyword on bionic
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wunused-but-set-parameter"
+#pragma GCC diagnostic ignored "-Wregister"
 #include <rviz/message_filter_display.h>
 #pragma GCC diagnostic pop
 #include <rviz/properties/color_property.h>
