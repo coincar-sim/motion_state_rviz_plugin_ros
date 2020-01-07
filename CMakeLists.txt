@@ -17,6 +17,9 @@ find_package(AutoDeps REQUIRED COMPONENTS ${DEPENDEND_PACKAGES})
 # Manually resolve removed dependend packages
 #find_package(...)
 
+# Remove a warning caused by the rviz-plugin core
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-expansion-to-defined")
+
 ########################
 ## Add python modules ##
 ########################
