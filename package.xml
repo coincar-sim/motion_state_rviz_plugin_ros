@@ -6,7 +6,7 @@
      MotionState plugin for RViz.
   </description>
   <license>BSD</license>
-  <maintainer email="eduardo.molinos@kit.edu">Eduardo Molinos</maintainer>
+  <maintainer email="christian.kinzig@kit.edu">Christian Kinzig</maintainer>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>mrt_cmake_modules</build_depend>
